@@ -1,0 +1,119 @@
+[
+    { 
+        "Name": "Jurassic Park", 
+        "Poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024", 
+        "Title": "Jurassic Park", 
+        "Hero": "https://stream.telenor.se/client-portal/res/d441444a-a92e-4f9d-8c98-76cbea316a51.jpg", 
+        "Video": "https://www.youtube.com/embed/lc0UehYemQA", 
+        "About": "Jurassic Park is a thrilling science fiction film where a billionaire creates a dinosaur theme park. As visitors explore, the park's security systems fail, unleashing chaos and danger as scientists and guests must confront the resurrected prehistoric creatures in a fight for survival.", 
+        "Release": "Jurassic Park was released on June 11, 1993. The film was directed by the renowned filmmaker Steven Spielberg and is based on the 1990 novel of the same name by Michael Crichton. It became a groundbreaking science fiction adventure and a cultural phenomenon, known for its revolutionary use of computer-generated imagery (CGI) to bring dinosaurs to life on the big screen. The movie's success led to the creation of a highly successful franchise, including sequels, merchandise, and theme park attractions." 
+    },
+    { 
+        "Name": "The Lost World", 
+        "Poster": "https://image.tmdb.org/t/p/original/3aRxpJY3eFndH83bMmNwpMoZdec.jpg", 
+        "Title": "Jurassic Park: The Lost world", 
+        "Hero": "https://pixel.disco.skyshowtime.com/uuid/92a5e925-b115-33b0-b831-1ef3211547f4/COVER_TITLE_WIDE?language=sv-SE&proposition=SKYSHOWTIME&version=1bf835f7-ebc1-3555-95f5-70d8d447a795", 
+        "Video": "https://www.youtube.com/embed/RxrvaneULkE",
+        "About": "Jurassic Park: The Lost World is the thrilling sequel to Michael Crichton's iconic novel, where chaos reigns once again on Isla Nublar. This time, a daring expedition returns to the island, discovering that dinosaurs have survived and evolved in isolation. As they struggle to survive amidst the ancient creatures, the characters must confront ethical dilemmas and the consequences of human interference with nature. With its gripping narrative and suspenseful twists, the novel keeps readers on the edge of their seats, exploring the inherent risks of tampering with the natural order and the thrilling consequences that follow.", 
+        "Release": "Jurassic Park: The Lost World was released on May 23, 1997. It is a science fiction adventure film directed by Steven Spielberg, based on Michael Crichton's novel of the same name. The movie serves as a sequel to the 1993 blockbuster ''Jurassic Park'' and follows a team of scientists and adventurers as they explore a hidden dinosaur-infested island. Spielberg's visionary direction and groundbreaking special effects contributed to its success as a thrilling continuation of the Jurassic Park franchise."
+    },
+    { 
+        "Name": "Jurassic Park III", 
+        "Poster": "https://img-cdn.sfanytime.com/COVERM/7d796c16-2e88-489d-bd55-9f81010fa375_COVERM_01.jpg?w=375&fm=pjpg&s=3e3071885fc6100651396a06669ee68b", 
+        "Title": "Jurassic Park III", 
+        "Hero": "https://images1.resources.foxtel.com.au/store1/mount1/SHF/2018/I@080099_L.jpg", 
+        "Video": "https://www.youtube.com/embed/gjIaV6CU0wA", 
+        "About": "Jurassic Park III is the third installment in the iconic dinosaur-themed film series. Directed by Joe Johnston, it follows the thrilling adventure of a group of individuals who find themselves stranded on the dangerous Isla Sorna, home to cloned dinosaurs. With breathtaking visuals and intense action, the movie explores their struggle to survive in a world where prehistoric creatures roam freely. As they navigate through the perilous island, they uncover secrets that challenge their understanding of the past and the present. Jurassic Park III offers a pulse-pounding journey into the heart of dinosaur chaos.", 
+        "Release": "Jurassic Park III, directed by Joe Johnston, is the thrilling third installment in the iconic dinosaur franchise. Released on July 18, 2001, this blockbuster film takes audiences on another heart-pounding adventure to the prehistoric world of genetically-engineered dinosaurs. With cutting-edge special effects and a gripping storyline, it promises an unforgettable cinematic experience for fans of the series and newcomers alike." 
+    },
+    { 
+        "Name": "The Boy and the Beast", 
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGUxZGMzYTYtNjJlMS00OGQ5LTg5YjItN2JjM2Y2NjQzMzdkL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg", 
+        "Title": "The Boy and the Beast", 
+        "Hero": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/3b624448199a3efbcb0d35e1a265fb94.jpe", 
+        "Video": "https://www.youtube.com/embed/PkNtujKPZtE", 
+        "About": "The Boy and the Beast is a captivating animated film directed by Mamoru Hosoda. It tells the story of a young boy who stumbles into a parallel world inhabited by anthropomorphic creatures. There, he forms an unlikely bond with a gruff beast warrior and embarks on a transformative journey of self-discovery and growth. This visually stunning and emotionally resonant tale explores themes of friendship, family, and the balance between darkness and light.", 
+        "Release": "The Boy and the Beast was released in Japan in 2015 and internationally in 2016. Directed by Mamoru Hosoda, this animated film blends fantasy and adventure as it follows the journey of a young boy into a parallel world. The film's release was met with critical acclaim, praised for its stunning animation and touching narrative, making it a must-watch for fans of Japanese anime." 
+    },
+    { 
+        "Name": "Overlord", 
+        "Poster": "https://www.animenewsnetwork.com/images/encyc/A18967-1124938163.1482878041.jpg", 
+        "Title": "Overlord: The Undead King", 
+        "Hero": "https://img.hulu.com/user/v3/artwork/86853e46-5a47-4b79-979b-b175c1fa7db2?base_image_bucket_name=image_manager&base_image=d5b95526-ed3b-486a-9578-e4ed2d1ea2cb&region=US&format=jpeg&size=952x536", 
+        "Video": "https://www.youtube.com/embed/uhlBqFj9kDw", 
+        "About": "Overlord: The Undead King is a thrilling anime series based on the light novel by Kugane Maruyama. Set in a virtual reality MMORPG world, it follows the story of Suzuki Satoru, a powerful player who becomes trapped in the game after its servers shut down. He retains his in-game character, a powerful skeletal overlord, and decides to explore this new, immersive world. As he sets out on an epic adventure, the series combines elements of fantasy, action, and strategy, offering a captivating exploration of the consequences of virtual reality and the development of the protagonist's character in this unique setting.",
+        "Release": "Overlord: The Undead King is an anime series based on Kugane Maruyama's light novel. It's set in a virtual reality MMORPG world where Suzuki Satoru, a powerful player, gets trapped when the game's servers shut down. He reawakens as a skeletal overlord and embarks on an epic journey. The series combines fantasy, action, and strategy, delving into the implications of virtual reality and character development. Originally released in 2015, it has gained a dedicated following for its immersive storytelling and unique premise."
+    },
+    { 
+        "Name": "Dial of Destiny", 
+        "Poster": "https://pics.filmaffinity.com/Indiana_Jones_and_the_Dial_of_Destiny-145866922-large.jpg", 
+        "Title": "Indiana Jones and the Dial of Destiny", 
+        "Hero": "https://www.livemint.com/lm-img/img/2023/07/15/1600x900/456_1689415234111_1689415248384.jpg", 
+        "Video": "", 
+        "About": "Placeholder",
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "Interstellar", 
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg", 
+        "Title": "Interstellar", 
+        "Hero": "https://wallpapercave.com/wp/wp1817968.jpg", 
+        "Video": "", 
+        "About": "Placeholder",
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "Oppenheimer", 
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg", 
+        "Title": "Oppenheimer", 
+        "Hero": "https://biografmuseet.se/wp-content/uploads/2023/08/06-opp-dm-mobile-banner-1080x745-now-pl-f01-071223-64bab982784c7-1.jpg", 
+        "Video": "", 
+        "About": "Placeholder",
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "65", 
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTNlNWIyYjUtY2Q2NS00MzkxLTgzZjctN2YyMDlhMzBlNTUzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg", 
+        "Title": "65", 
+        "Hero": "https://flxt.tmsimg.com/assets/p21472315_v_h8_ac.jpg", 
+        "Video": "", 
+        "About": "Placeholder", 
+        "Release": "Placeholder" 
+    },
+    { 
+     "Name": "Men in Black", 
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxOTkxODQ1OF5BMl5BanBnXkFtZTYwOTc3MDg4._V1_.jpg", 
+        "Title": "Men in Black", 
+        "Hero": "https://flxt.tmsimg.com/assets/p19526_v_h8_aq.jpg", 
+        "Video": "", 
+        "About": "Placeholder", 
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "Parasyte", 
+        "Poster": "https://m.media-amazon.com/images/I/71IrbES5rsL._AC_UF894,1000_QL80_.jpg", 
+        "Title": "Parasyte: The Maxim", 
+        "Hero": "https://img.hulu.com/user/v3/artwork/fd1aee21-6a0f-417c-ba55-57c5b0d22002?base_image_bucket_name=image_manager&base_image=a7d36866-2740-4bf6-ad09-836d99c779c4&size=1200x630&format=jpeg", 
+        "Video": "", 
+        "About": "Placeholder", 
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "Parasyte: Part 1", 
+        "Poster": "https://media.gv.com.sg/imagesresize/img3259.jpg", 
+        "Title": "Parasyte: Part 1", 
+        "Hero": "https://m.media-amazon.com/images/S/pv-target-images/b1457da8dfe56e06187901f7dbc57177c2a9db6e9ff855f2d3c407b337496838.jpg", 
+        "Video": "", 
+        "About": "Placeholder", 
+        "Release": "Placeholder" 
+    },
+    { 
+        "Name": "Parasyte: Part 2", 
+        "Poster": "https://animeuknews.net/app/uploads/91NC7WdlMfL._SL1500_-1-1.jpg", 
+        "Title": "Parasyte: Part 2", 
+        "Hero": "https://www.fareastfilm.com/ThumbJpeg.ashx?Code=FEFJ&Mode=C&FilePath=Archivi/FEFJ/Img/0004/4557.jpg&Width=1280&Height=715", 
+        "Video": "", 
+        "About": "Placeholder", 
+        "Release": "Placeholder" 
+    }
+]
