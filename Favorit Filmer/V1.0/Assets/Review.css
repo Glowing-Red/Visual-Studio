@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    border-radius: 15px;
+}
+
+main section h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+  
+main section img {
+    max-width: 60%;
+    height: auto;
+}
+
+main section h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+main section p {
+    max-width: 55%;
+    font-size: 19px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+main section .p2 {
+    max-width: 50%;
+}
+
+video {
+    max-width: 40%;
+    max-height: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s;
+}
+
+.polygon {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    right: 50px;
+    width: 40px;
+    height: 35px;
+    background-color: #333;
+    clip-path: polygon(100% 0, 100% 38%, 100% 71%, 0 100%, 0 0);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.Sidebar-Btn {
+    position: absolute;
+    top: 2px;
+    right: 4.5px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+.hidden-checkbox {
+    position: absolute;
+    top: -9999px;
+    opacity: 0;
+}
+
+.HoverBlue {
+    pointer-events: auto;
+}
+
+.HoverBlue:hover {
+    color: #0099ff;
+}
+
+.SidebarTagsDiv {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.SidebarTitleDiv {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
