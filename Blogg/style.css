@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.hide {
+    opacity: var(--hide-opacity, 1);
+    transition: var(--hide-transition, opacity 0s ease-in-out);
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+.no-pointer {
+    pointer-events: none;
+    user-select: none;
+}
+
+.title {
+    z-index: 3;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.title h2 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    line-height: 0.88;
+}
+
+.title h1 {
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 0.88;
+}
+
+.container {
+    width: 85%;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container div {
+    margin: 10px;
+}
+
+.nav-menu {
+    border-top: 1.5px solid rgba(0, 0, 0, 0.75);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 100%;
+}
+
+.nav-item {
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-item:hover {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.content-divide {
+    justify-items: center;
+    display: flex;
+}
+
+.content-divide div {
+    width: 90%;
+}
+
+.Introduction {
+    flex: 3;
+}
+
+.Introduction img {
+    border-radius: 8px;
+    width: 80%;
+}
+
+.Introduction h5 {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.feed {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.About-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1.5px solid rgba(184, 1, 3, 0.85);
+    border-radius: 10px;
+    padding: 5%;
+    max-width: 100%;
+    border-color: #B80104;
+    border: 1.5px solid rgba(184, 1, 3, 0.85);
+    box-shadow: 0 0 10px #cd0003;
+    transition: box-shadow 0.3s ease;
+}
+
+.About-me h3 {
+    align-self: flex-start;
+    font-family: "Poppins", sans-serif;
+}
+
+.About-me img {
+    max-width: 40%;
+    border-radius: 40px;
+}
+
+.About-me h4 {
+    font-family: "Poppins", sans-serif;
+    text-shadow: 0 0 15px #B80104;
+    transition: text-shadow 0.3s ease;
+}
+
+.About-me a {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #cd0003;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.content-row {
+    width: 97%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.Blog-post {
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Blog-post img {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.Blog-post h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+
+.Blog-post h5 {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30%;
+}
+
+.Blog-post button {
+    max-width: 80%;
+}
+
+.Continue-Reading {
+    width: 90%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    border: 1.5px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Continue-Reading::before {
+    content: "";
+    background-image: var(--background-image, url('https://wallpapers.com/images/hd/anime-4k-pictures-q1cg89niv319ld1a.jpg'));
+    filter: var(--before-filter, blur(2.5px));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
