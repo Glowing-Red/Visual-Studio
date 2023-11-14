@@ -1,13 +1,3 @@
-var header = document.getElementById("navigation");
-var sticky = header.offsetTop - header.offsetHeight / 2;
-document.body.addEventListener("scroll", function() {
-    if (document.body.scrollTop > sticky) {
-        header.classList.add("sticky-navigation");
-    } else {
-        header.classList.remove("sticky-navigation");
-    }
-});
-
 document.querySelectorAll(".nav-item").forEach((item) => {
     getComputedStyle(item, ':hover');
     const Colour = item.style.color;

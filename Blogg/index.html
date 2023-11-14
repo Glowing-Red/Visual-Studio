@@ -1,58 +1,89 @@
 <!DOCTYPE html>
+<!-- Bra att veta
+    Det finns en About me och start sida, start sidan har introduction och bloggar
+    bloggen till höger av introduction namnged "Another horde of Code" har också ett exempel på 
+    hur en blog kan se ut ifall man fortsätter läsa om den.
+-->
+
+<!-- Elliots kommentarer
+    Kritik:
+        * Introduktions texten är så långd så du borde styckindela den för lättare läsning, eller ha kortare text.
+        * Samma font-style överallt, vilket du inte har vid vissa typer av titlar.
+        * Större rad mellanrum i texten.
+    
+    Bra:
+        * Bra och snygg fonter, borde inte blandas dock.
+        * Det är bra disposition och uppdelning, bra färg-pallett för hemsidan då de passar och komplementerar varandra i en fin harmoni.
+        * Snygg design med hjälp av javascript (10/10).
+        * Nice intro animation vid uppstart av webbsidan.
+        * Fina blog-knappar då du använt blogg-inläggets bild som bakgrund för att få knappen att vara mer passande, och bold text som får den att vara mer mjuk mot bakgrunden.
+        * Nice blogg bilder som passar bloggens innehåll.
+-->
+
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lite random skit, laddar in ett javascript library för animation (används bara vid start av sida)  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <!-- Titel på sidan och ikonen brevid texten -->
     <title>Chronicles of Life</title>
-    <link rel="icon" type="image/x-icon" href="Assets/Globe Rounded.png">
+    <link rel="icon" type="image/x-icon" href="Assets/Images/Glove Rounded.png">
 </head>
 <body>
     <div class="container">
+        <!-- Titeln på fram sidan -->
         <div class="title no-pointer">
             <h2>Chronicles of Life</h2>
             <h1>Tales from Diverse Adventures</h1>
         </div>
-        <div class="hide" id="navigation">
-            <nav class="nav-menu">
-                <a href="#Home" class="nav-item">Home</a>
-                <a href="#Blogs" class="nav-item">Blogs</a>
-                <a href="Assets/About me/About me.html" class="nav-item">About me</a>
-            </nav>
-        </div>
+        <!-- Navigationen för att navigera till de olika sidorna/delarna av sidorna -->
+        <nav class="nav-menu hide">
+            <!-- Går till introduktionen på fram-sidan -->
+            <a href="#Home" class="nav-item">Home</a>
+            <!-- Går till framsidan och sedan skrollar ner till där blogarna är -->
+            <a href="#Blogs" class="nav-item">Blogs</a>
+            <!-- Går till About me sidan -->
+            <a href="Assets/About me/About me.html" class="nav-item">About me</a>
+        </nav>
         <div class="content-divide hide">
             <div id="Home" class="Introduction">
+                <!-- Introduktionen på framsidan som ger on kort beskrivning utav vad som finns -->
                 <div>
                     <h4 class="no-pointer">Introduction</h4>
-                    <img class="no-pointer" src="https://cdn.discordapp.com/attachments/711636453452415019/1161695083414966312/fantasy_library.jpg">
-                    <h5>Welcome to Chronicles of Life: Tales from Diverse Adventures. Life unfolds as an unparalleled odyssey, replete with an inexhaustible trove of stories yearning to be unveiled. In the realm of this blog, we extend a cordial invitation, inviting you to set sail on a breathtaking expedition through the pages of our genuine experiences. From audacious escapades that defy the ordinary to those poignant moments that warm the heart, we are here to weave a rich mosaic of accounts that traverse the kaleidoscope of human existence.
-
+                    <img draggable="false" class="no-pointer" src="https://cdn.discordapp.com/attachments/711636453452415019/1161695083414966312/fantasy_library.jpg">
+                    <h5>
+                        Welcome to Chronicles of Life: Tales from Diverse Adventures. Life unfolds as an unparalleled odyssey, replete with an inexhaustible trove of stories yearning to be unveiled. In the realm of this blog, we extend a cordial invitation, inviting you to set sail on a breathtaking expedition through the pages of our genuine experiences. From audacious escapades that defy the ordinary to those poignant moments that warm the heart, we are here to weave a rich mosaic of accounts that traverse the kaleidoscope of human existence.
                         Our stories, akin to the spectral array of colors that span the wavelengths of visible light, encompass the full spectrum of emotions, encompassing both the jubilant and trying aspects of our multifaceted lives. We've traversed the globe's most enchanting corners, engaged with captivating individuals, and delved profoundly into the enigma of our own beings. In every post, we aspire to transport you on an immersive sojourn, exposing the splendor, the resilience, and the intricacies of the human adventure.
-                        
-                        "Chronicles of Life" is an homage to the opulence inherent in life itself – a compendium of stories that serve as a reminder of the adventures and wisdom concealed within each nook and cranny of our existence. So, come along as we unlock the treasury of our recollections and recount the anecdotes that have molded us, in the hope that they may serve as a wellspring of inspiration, amusement, and illumination for your own unique voyage. Together, let us plunge headfirst into the vivid tapestry of life's manifold adventures.</h5>
+                        "Chronicles of Life" is an homage to the opulence inherent in life itself – a compendium of stories that serve as a reminder of the adventures and wisdom concealed within each nook and cranny of our existence. So, come along as we unlock the treasury of our recollections and recount the anecdotes that have molded us, in the hope that they may serve as a wellspring of inspiration, amusement, and illumination for your own unique voyage. Together, let us plunge headfirst into the vivid tapestry of life's manifold adventures.
+                    </h5>
                 </div>
             </div>
+            <!-- Div klass för About me och den populäraste bloggen, detta visas brevid introduktionen -->
             <div class="feed">
+                <!-- Kort introduktion och länk till About Me, med unik stil som är gjord för att passa min profil -->
                 <div class="About-me">
-                    <h3>About me</h3>
+                    <h3 class="no-pointer">About me</h3>
                     <div>
                         <img src="https://avatars.githubusercontent.com/u/79102132?v=4">
                         <h4>Glowing-Red</h4>
                     </div>
                     <h5>Hello, I go by the alias 'Glowing-Red' and I am currently learning about coding and...</h5>
-                    <a href="Assets/About me/About me.html">Continue Reading</a>
+                    <a href="Assets/About me/About me.html" class="no-pointer">Continue Reading</a>
                 </div>
-                <div class="Blog-post">
+                <!-- Blog highlight som visar den populäraste bloggen -->
+                <div class="Blog-post high">
                     <div>
-                        <h4>Another horde of code</h4>
+                        <h4>Another horde of Code</h4>
                         <img src="https://wallpapercave.com/wp/wp5899608.jpg">
                     </div>
                     <h5>The day has been so long, yet so short. My head keeps aching and the code keeps breaking...</h5>
-                    <a href="Assets/Blogs/Another Horde of Code.html" class="Continue-Reading">Continue Reading</a>
+                    <a href="Assets/Blogs/Another horde of Code.html" class="Continue-Reading">Continue Reading</a>
                 </div>
             </div>
         </div>
+        <!-- En div som inehåller alla bloggar och lägger stilfult ut dem under introduktionen -->
         <div id="Blogs" class="content-row hide">
             <div class="Blog-post">
                 <div>
@@ -80,7 +111,7 @@
             </div>
             <div class="Blog-post">
                 <div>
-                    <h4>Island Adventure</h4>
+                    <h4>Magical Island Adventure</h4>
                     <img src="https://img.freepik.com/fotos-premium/wunderschoene-fantasy-magical-forest-landschaft-im-anime-art-style_492154-6151.jpg">
                 </div>
                 <h5>Jumping from rock to rock to reach the island in the distant, what adventure is it that awaits...</h5>

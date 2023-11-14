@@ -23,7 +23,6 @@ function handleResize() {
 window.addEventListener("resize", handleResize);
 
 handleResize();
-  
 
 // GSAP Animation
 if (!sessionStorage.getItem('Intro')) {
@@ -31,9 +30,6 @@ if (!sessionStorage.getItem('Intro')) {
 
     document.body.style.overflowY = "hidden";
     document.body.style.overflowX = "hidden";
-    document.querySelectorAll('.hide').forEach((hidden) => {
-        hidden.style.setProperty('--hide-opacity', `0`);
-    });
 
     let timeline = gsap.timeline();
     timeline.from(".title h1", {
@@ -46,25 +42,20 @@ if (!sessionStorage.getItem('Intro')) {
     },"1");
 
     setTimeout(function() {
-        document.querySelectorAll('.hide').forEach((hidden) => {
-            hidden.style.setProperty('--hide-transition', `opacity 2s ease-in-out`);
-        });
         document.querySelectorAll(".hide").forEach((hidden) => {
             hidden.style.opacity = 1;
         });
         setTimeout(function() {
+            document.querySelectorAll('.hide').forEach(hidden => {
+                hidden.classList.remove('hide');
+            });
+
             document.body.style.overflowY = "scroll";
             document.body.style.overflowX = "hidden";
         }, 2050)
     }, 2000);
 } else {
-    document.querySelectorAll('.hide').forEach((hidden) => {
-        hidden.style.setProperty('--hide-transition', `opacity 0s ease-in-out`);
+    document.querySelectorAll('.hide').forEach(hidden => {
+        hidden.classList.remove('hide');
     });
-    document.querySelectorAll(".hide").forEach((hidden) => {
-        hidden.style.opacity = 1;
-    });
-    
-    document.body.style.overflowY = "scroll";
-    document.body.style.overflowX = "hidden";
 }

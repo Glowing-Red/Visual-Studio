@@ -1,3 +1,4 @@
+/* Import font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
 
 *, *::before, *::after {
@@ -6,14 +7,13 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.hide {
+    opacity: var(--hide-opacity, 0);
+    transition: var(--hide-transition, opacity 2s ease-in-out);
 }
 
 body {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -24,15 +24,9 @@ body {
     overflow-y: scroll;
 }
 
-.hide {
-    opacity: var(--hide-opacity, 1);
-    transition: var(--hide-transition, opacity 0s ease-in-out);
-}
-
 header ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 
 header ul a {
@@ -45,11 +39,12 @@ header ul a {
 }
 
 .no-pointer {
-    pointer-events: none;
+    pointer-events: auto;
     user-select: none;
 }
 
 .title {
+    font-family: "Times New Roman", sans-serif;
     z-index: 3;
     text-align: center;
     text-transform: uppercase;
@@ -57,13 +52,13 @@ header ul a {
 }
 
 .title h2 {
-    font-weight: 100;
-    font-size: 3.5rem;
+    font-weight: 400;
+    font-size: 3rem;
     line-height: 0.88;
 }
 
 .title h1 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.25rem;
     line-height: 0.88;
 }
@@ -72,33 +67,29 @@ header ul a {
     width: 85%;
     padding: 20px;
     text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.container div {
-    margin: 10px;
 }
 
 .nav-menu {
     border-top: 1.5px solid rgba(0, 0, 0, 0.75);
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.75);
     border-radius: 8px;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 2.5rem;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav-item {
-    font-family: "Poppins", sans-serif;
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
-    font-family: "Poppins", sans-serif;
 }
 
 .nav-item:hover {
@@ -106,8 +97,9 @@ header ul a {
 }
 
 .content-divide {
-    justify-items: center;
+    justify-content: center;
     display: flex;
+    width: 100%;
 }
 
 .content-divide div {
@@ -116,6 +108,9 @@ header ul a {
 
 .Introduction {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Introduction img {
@@ -123,9 +118,17 @@ header ul a {
     width: 80%;
 }
 
+.Introduction h4 {
+    margin: 5px auto;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 .Introduction h5 {
     max-width: 90%;
-    margin: 15px auto;
+    margin: 5px auto;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
 
 .feed {
@@ -133,6 +136,11 @@ header ul a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.feed div {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .About-me {
@@ -145,14 +153,12 @@ header ul a {
     padding: 5%;
     max-width: 100%;
     border-color: #B80104;
-    border: 1.5px solid rgba(184, 1, 3, 0.85);
     box-shadow: 0 0 10px #cd0003;
     transition: box-shadow 0.3s ease;
 }
 
 .About-me h3 {
     align-self: flex-start;
-    font-family: "Poppins", sans-serif;
 }
 
 .About-me img {
@@ -161,7 +167,6 @@ header ul a {
 }
 
 .About-me h4 {
-    font-family: "Poppins", sans-serif;
     text-shadow: 0 0 15px #B80104;
     transition: text-shadow 0.3s ease;
 }
@@ -181,13 +186,14 @@ header ul a {
 }
 
 .content-row {
-    width: 97%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 25px;
 }
 
 .Blog-post {
+    display: flex;
     flex-direction: column;
     align-items: center;
     border: 1.5px solid rgba(0, 0, 0, 0.85);
@@ -197,6 +203,10 @@ header ul a {
     position: relative;
 }
 
+.high {
+    
+}
+
 .Blog-post img {
     width: 100%;
     height: 100px;
@@ -204,14 +214,17 @@ header ul a {
 }
 
 .Blog-post h4 {
-    font-family: "Poppins", sans-serif;
-    font-size: small;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.05rem;
+    margin-top: 7.5px;
+    margin-bottom: 2.5px;
 }
 
 .Blog-post h5 {
     max-width: 80%;
     margin: 0 auto;
-    padding-bottom: 30%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
 }
 
 .Blog-post button {
@@ -239,6 +252,8 @@ header ul a {
     bottom: 0;
     left: 0;
     right: 0;
+    pointer-events: auto;
+    user-select: none;
 }
 
 .Continue-Reading::before {

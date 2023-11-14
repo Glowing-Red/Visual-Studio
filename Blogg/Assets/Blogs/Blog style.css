@@ -1,3 +1,4 @@
+/* Import font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
 
 *, *::before, *::after {
@@ -7,6 +8,7 @@
 }
 
 html, body {
+    font-family: "Times New Roman", sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -22,11 +24,6 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
-}
-
-.hide {
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
 }
 
 header ul {
@@ -50,26 +47,31 @@ header ul a {
 }
 
 .title {
+    font-family: "Times New Roman", sans-serif;
     z-index: 3;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .title h3 {
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 0.88;
 }
 
 .title h2 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2.25rem;
     line-height: 0.88;
 }
 
 .title h1 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1.25rem;
     line-height: 0.88;
 }
@@ -78,6 +80,7 @@ header ul a {
     width: 85%;
     padding: 20px;
     text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -113,7 +116,39 @@ header ul a {
 }
 
 .content img {
-    width: 80%;
+    width: 59%;
     border-radius: 15px;
 }
 
+.content h5 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 0.88;
+}
+
+.content h3 {
+    font-weight: 500;
+    font-size: 1.35rem;
+    line-height: 0.88;
+    max-width: 75%;
+    margin: 10px auto;
+}
+
+.content h4 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.65rem;
+    line-height: 0.88;
+}
+
+.content h2 {
+    font-weight: 500;
+    font-size: 1.35rem;
+    line-height: 0.88;
+    max-width: 65%;
+    margin: 10px auto;
+    margin-bottom: 2rem;
+}
