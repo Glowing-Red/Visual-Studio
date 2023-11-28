@@ -148,3 +148,54 @@ header ul a {
     margin: 10px auto;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .content img {
+        width: 95%;
+    }
+    .content h3, .content h2 {
+        max-width: 90%;
+    }
+    .content h4 {
+        font-size: 1.75rem;
+    }
+    .content h5 {
+        font-size: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .title h3 {
+        font-size: 2rem;
+    }
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .title h1 {
+        font-size: 1rem;
+    }
+
+    .content img {
+        width: 100%;
+    }
+    .content h3, .content h2 {
+        max-width: 100%;
+    }
+    .content h4 {
+        font-size: 1.75rem;
+    }
+    .content h5 {
+        font-size: 1.85rem;
+    }
+}
