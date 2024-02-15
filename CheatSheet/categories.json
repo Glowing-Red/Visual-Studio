@@ -1,0 +1,72 @@
+{
+   "Test 1": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 2": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 3": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 4": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 5": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 6": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   },
+   "Test 7  ": {
+      "Html": {
+         "Description": "Root of all elements outside <Document>",
+         "Id": "HtmlAdvanced"
+      },
+      "Document" : {
+         "Description": "Root of the document and is the only element before and outside <html>",
+         "Id": "DocumentExtended"
+      }
+   }
+} 
